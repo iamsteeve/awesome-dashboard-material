@@ -1,0 +1,19 @@
+{
+  "name": "awesome-dashboard-material",
+  "version": "0.0.1",
+  "description": "Un dashboard construido con un stack Nextjs, MaterialUI y Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsteeve/awesome-dashboard-material.git"
+  },
+  "author": "Steeve Luis Angel Torres Agustin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamsteeve/awesome-dashboard-material/issues"
+  },
+  "homepage": "https://github.com/iamsteeve/awesome-dashboard-material#readme"
+}
