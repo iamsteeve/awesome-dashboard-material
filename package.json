@@ -2,9 +2,11 @@
   "name": "awesome-dashboard-material",
   "version": "0.0.1",
   "description": "Un dashboard construido con un stack Nextjs, MaterialUI y Typescript",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,26 @@
   "bugs": {
     "url": "https://github.com/iamsteeve/awesome-dashboard-material/issues"
   },
-  "homepage": "https://github.com/iamsteeve/awesome-dashboard-material#readme"
+  "homepage": "https://github.com/iamsteeve/awesome-dashboard-material#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.8.3",
+    "@zeit/next-typescript": "^1.1.1",
+    "jss": "^9.8.7",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-jss": "^8.6.1",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "typesafe-actions": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/next": "^7.0.6",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-jss": "^8.6.0",
+    "@types/react-redux": "^6.0.12",
+    "@types/styled-jsx": "^2.2.7",
+    "typescript": "^3.2.2"
+  }
 }
